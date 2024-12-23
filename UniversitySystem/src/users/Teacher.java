@@ -95,9 +95,9 @@ public class Teacher extends Employee {
      */
     public void checkAttendance(String courseName) {
         System.out.println("Attendance report for course \"" + courseName + "\":");
-        System.out.println("John Doe: Present");
-        System.out.println("Jane Smith: Absent");
-        System.out.println("Alex Brown: Present");
+        System.out.println("Aibar: Present");
+        System.out.println("Emir: Absent");
+        System.out.println("Dastan: Present");
     }
 
     /**
