@@ -17,11 +17,11 @@ public class aidTest {
 
         // Create Student and Manager
         Student aibar = new Student("aibar", "23B032222");
-        Manager avinash = new Manager();
+        Manager manager = new Manager();
 
         // Assign courses to teachers
-        avinash.addCourseToTeacher(OOP, elnara);
-        avinash.addCourseToTeacher(PP1, aibek);
+        manager.addCourseToTeacher(OOP, elnara);
+        manager.addCourseToTeacher(PP1, aibek);
 
         // Teacher manages courses
         elnara.manageCourses();
